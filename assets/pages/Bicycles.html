@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- link for icon -->
+    <link rel="icon" href="../imgaes/AF-logo.png" />
+
+    <!-- link for style sheet -->
+    <link rel="stylesheet" href="../Bicycles.css" />
+
+    <!-- link for bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+      l̥
+    />
+
+    <!-- link for font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Auto Forest</title>
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <head>
+        <nav>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-1 col-sm-2 col-lg-4 logo">
+                <a href="../../index.html"><img src="../imgaes/AF-logo.png" alt="logo" /></a>
+              </div>
+              <div class="col-11 col-sm-10 col-lg-8 menu">
+                <ul>
+                  <li class="nav-item"><a href="../pages/About.html">About</a></li>
+                  <li class="nav-item"><a href="../pages/Bicycles.html" class="active">Bicycles</a></li>
+                  <li class="nav-item"><a href="#">Products</a></li>
+                  <li class="nav-item"><a href="../pages/FAQ.html">FAQs</a></li>
+                  <li class="nav-item"><a href="../pages/Dealers.html">Dealers</a></li>
+                  <li class="nav-item"><a href="../pages/news.html">News</a></li>
+                  <li class="nav-item"><a href="../pages/Contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </head>
+
+
+    <!-- main section card view of bicycles-->
+    <main>
+        <div class="container main-section">
+            <div class="row">
+                <div class="bicycle1 col-12 col-md-4">
+                    <div class="popup" id="popup-1">
+                        <div class="overlay"></div>
+                        <div class="content">
+                          <div class="close-btn" onclick="togglePopup()">&times;</div>
+                          <h1>Specification</h1>
+                          <hr>
+                          <table style="text-align: left; color:black;">
+                              <tr>
+                                  <td>Frame</td>
+                                  <td>Steal with FPR battery container</td>
+                              </tr>
+                              <tr>
+                                  <td>Front Fork</td>
+                                  <td>Steal rigid type threaded</td>
+                              </tr>
+                              <tr>
+                                  <td>Wheel Base</td>
+                                  <td>1150mm</td>
+                              </tr>
+                              <tr>
+                                  <td>Motor</td>
+                                  <td>Brushless 36V 250W</td>
+                              </tr>
+                              <tr>
+                                  <td>Rim</td>
+                                  <td>26” Aluminium Double Walled , Black</td>
+                              </tr>
+                              <tr>
+                                  <td>Tyres</td>
+                                  <td>26”1.90” Ralson CRAZE R-4106</td>
+                              </tr>
+                              <tr>
+                                  <td>Battery</td>
+                                  <td>36V 7.8Ah Lithium Ion</td>
+                              </tr>
+                              <tr>
+                                  <td>Front break</td>
+                              </tr>
+                              <tr>
+                                  <td>Rear Break</td>
+                              </tr>
+                              <tr>
+                                  <td>Responsive Braking</td>
+                              </tr>
+                              <tr>
+                                  <td>Horn and Light</td>
+                              </tr>
+                          </table>
+                        </div>
+                    </div>   
+                    <div onclick="togglePopup()" class="card" style="width: 18rem;">
+                        <img src="../imgaes/AF39s.jpg" alt="AF39" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title" style="text-align: center;">AF 39</h4>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="bicycle2 col-12 col-md-4">
+                    <div class="popup" id="popup-2">
+                        <div class="overlay"></div>
+                        <div class="content">
+                          <div class="close-btn" onclick="togglepopup()">&times;</div>
+                          <h1>Specification</h1>
+                          <hr>
+                          <table style="text-align: left; color:black;">
+                              <tr>
+                                  <td>Frame</td>
+                                  <td>Steal with integrated battery</td>
+                              </tr>
+                              <tr>
+                                  <td>Front Fork</td>
+                                  <td>Steal Telescopic Type threadless</td>
+                              </tr>
+                              <tr>
+                                  <td>Wheel Base</td>
+                                  <td>1150mm</td>
+                              </tr>
+                              <tr>
+                                  <td>Motor</td>
+                                  <td>Brushless 36V 250W</td>
+                              </tr>
+                              <tr>
+                                  <td>Rim</td>
+                                  <td>26” Aluminium Double Walled , Black</td>
+                              </tr>
+                              <tr>
+                                  <td>Tyres</td>
+                                  <td>26”2.35” Ralson R-4904</td>
+                              </tr>
+                              <tr>
+                                  <td>Battery</td>
+                                  <td>36V 7.8Ah Lithium Ion</td>
+                              </tr>
+                              <tr>
+                                  <td>Front break Disc</td>
+                              </tr>
+                              <tr>
+                                  <td>Rear Break Disc</td>
+                              </tr>
+                              <tr>
+                                  <td>Responsive Braking</td>
+                              </tr>
+                              <tr>
+                                  <td>Horn and Light</td>
+                              </tr>
+                          </table>
+                        </div>
+                    </div>   
+                    <div onclick="togglepopup()" class="card" style="width:18rem">
+                        <img src="../imgaes/AF59s.jpg" alt="AF59" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title" style="text-align: center;">AF 59</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- you can add bicycles here -->
+
+            </div>
+        </div>
+    </main>
+
+
+    <!-- footer of webpage -->
+    <footer>
+        <div class="desc">
+            <p>Copyright &#169 Autoforest 2019</p>
+        </div>
+    </footer>
+    </div>
+
+
+    <!-- Hamburger -->
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler" />
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              <li><a href="./assets/pages/About.html">About</a></li>
+              <li><a href="./assets/pages/Bicycles.html">Bicycles</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="../pages/FAQ.html">FAQs</a></li>
+              <li><a href="../pages/Dealers.html">Dealers</a></li>
+              <li><a href="../pages/news.html">News</a></li>
+              <li><a href="../pages/Contact.html">Conatct Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="../JS/index.js"></script>
+  </body>
+</html>

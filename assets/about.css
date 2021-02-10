@@ -1,0 +1,48 @@
+@import "index.css";
+
+body{
+    overflow-y:scroll ;
+}
+.main-section{
+    height: 100%;
+}
+.abus, .os, .ourm, .tige{
+    margin:3% 0;
+}
+.abus .title h2, .os .title h2, .ourm .title h2, .tige .title h2{
+    width:100%;
+    text-align: center;
+    font-size: 23px;
+    display: inline-block;
+    padding:1% 2%;
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+}
+.abus p, .os p, .ourm p, .tige p{
+    text-align: justify;
+    margin:1% 1%;
+    font-size: 16px;
+}
+.abus .title,.os .title, .ourm .title, .tige .title {
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+}
+.title span{
+    display: inline-block;
+    height: 1px;
+    width:100%;
+    background: var(--primary-color);
+}
+.os ul li{
+    list-style: none;
+}
+.os ul li::before{
+    content: '\2605';
+}
+footer{
+    position: sticky;
+    bottom: 0;
+}
+
+
