@@ -17,6 +17,12 @@ footer {
   position: fixed;
   bottom: 0;
 }
+.main-section .row{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 /* popup style */
 .popup .overlay {
