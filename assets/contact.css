@@ -1,4 +1,4 @@
-@import "Bicycles.css";
+@import "index.css";
 
 .contact .info {
     width: 100%;
@@ -129,9 +129,15 @@
       transform: rotate(360deg);
     }
   }
+
+body {
+  /* height: 100vh; */
+  overflow-y: visible;
+}
+
 footer{
-      position: sticky;
-      bottom: 0;
+  position: sticky;
+  bottom: 0;
 }
 
 #contact{
@@ -155,4 +161,12 @@ footer{
     /* margin:0; */
     /* text-align: left; */
     padding-left:25px;
+}
+
+/* for footer */
+@media (min-width: 770px) and (max-width:1025px){
+  footer{
+    position: fixed;
+    bottom: 0;
+  }
 }
